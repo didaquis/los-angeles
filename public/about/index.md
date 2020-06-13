@@ -1,7 +1,7 @@
 ---
 title: About
 ---
-# Welcome to the user guides.
+# About this site
 
 * Apples
 * Pears

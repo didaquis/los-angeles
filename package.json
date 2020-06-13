@@ -1,11 +1,12 @@
 {
   "name": "los-angeles",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
     "dev": "DEBUG=los-angeles:* npm start",
-    "lint": "eslint --ext .js ."
+    "lint": "eslint --ext .js .",
+    "cypress:open": "cypress open"
   },
   "dependencies": {
     "@toptensoftware/losangeles": "^0.3.4",
@@ -15,5 +16,10 @@
     "hbs": "~4.1.1",
     "http-errors": "~1.7.3",
     "morgan": "~1.10.0"
+  },
+  "devDependencies": {
+    "cypress": "^4.8.0",
+    "eslint": "^7.2.0",
+    "eslint-plugin-cypress": "^2.11.1"
   }
 }

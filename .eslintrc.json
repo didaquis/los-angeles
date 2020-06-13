@@ -5,13 +5,17 @@
         "node": true,
         "mocha": true,
         "jasmine": true,
-        "jest": true
+        "jest": true,
+        "cypress/globals": true
     },
-    "extends": "eslint:recommended",
+    "extends": ["eslint:recommended", "plugin:cypress/recommended"],
     "parserOptions": {
         "ecmaVersion": 8,
         "sourceType": "module"
     },
+    "plugins": [
+        "cypress"
+    ],
     "rules": {
         "indent": [
             "error",
